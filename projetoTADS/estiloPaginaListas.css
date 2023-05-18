@@ -1,0 +1,25 @@
+* {/*aqui zera a margem da página e modifica a maneira de exibir o tamanho de uma caixa*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #353b37;
+}
+header {/*aqui coloca a caixa*/ 
+    background-color: #272b28;
+}
+.navegarbarra {/*display flex separa a logo dos textos, justify content separa os textos e o padding define o tamanho do caixa em altura e a distancia dos textos da borda respectivamente*/
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.navegarlista ul {/*deixa os textos da lista arrumados e no centro e sem o estilo de lista*/
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navegarlista a {/*dita a distâcia entre os textos*/
+    margin: 15px;
+}
