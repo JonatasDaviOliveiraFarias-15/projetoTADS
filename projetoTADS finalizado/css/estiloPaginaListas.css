@@ -1,0 +1,8 @@
+fieldset {/*personaliza as caixinhas*/
+    color: white;
+    background-color: #272b28;
+}
+.listas img:hover {/*faz o efeito doido de quando passa o mouse por cima*/
+    filter: drop-shadow(1px 1px 15px #000000);
+    transform: scale(1.1);
+}

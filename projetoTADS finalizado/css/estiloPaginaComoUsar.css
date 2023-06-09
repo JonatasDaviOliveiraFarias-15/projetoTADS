@@ -1,0 +1,11 @@
+* {
+    color: white;
+}
+h2 {/*posição do texto inicial*/
+    position: relative;
+    top: 40px;
+}
+h3 {
+    position: relative;
+    left: 15px;
+}

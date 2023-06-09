@@ -1,0 +1,28 @@
+input {/*mexe na caixa de texto de pesquisa*/
+    position: relative;
+    top: 185px;
+    left: 295px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    height: 15px;
+    background-color: #272b28;
+    color: white;
+    padding: 30px;
+}
+input::placeholder {/*cor da palavra dentro da caixa*/
+    color: white;
+}
+input:hover {/*mudar a cor quando passa o mouse em cima*/
+    background-color: #4f5250;
+}
+button {/*botão.*/
+    position: relative;
+    top: 206px;
+    left: 290px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #272b28;
+}
+h2 {/*posição do texto*/
+    position: relative;
+    top: 140px;
+}
